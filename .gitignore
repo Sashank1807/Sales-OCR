@@ -1,0 +1,50 @@
+# --- Virtual environments ---
+venv/
+.venv/
+env/
+ENV/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.tmp
+*.bak
+
+# --- Project data ---
+# OCR artifacts and user uploads are generated output, not source.
+output/
+uploads/
+
+# Keep the folders themselves so a fresh clone has somewhere to write.
+!output/.gitkeep
+!uploads/.gitkeep
+
+# --- PaddleOCR / PaddleX model cache ---
+.paddleocr/
+.paddlex/
+*.pdparams
+*.pdmodel
+*.pdiparams
+
+# --- Editors & OS ---
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Logs ---
+*.log

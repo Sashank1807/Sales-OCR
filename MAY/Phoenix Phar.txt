@@ -1,0 +1,68 @@
+
+                          PHOENIX PHARMA
+                    SH.NO-1,GR.FLR,ML.NO.D2Z2000779,OLD 2098
+                     REVENUE COLONY SHIRUR,M.NO-9028195831
+                    M.NO.9175075359/ 9175075379,7666202053,
+                           Stock and Sales Statement
+                     Company : HETERO HEALTHCARE.(Genx-Div)
+                            01/05/2026 to 31/05/2026
+                                                                      Page No. 1
+                             From :01/05/2026 To :31/05/2026
+-----------------------------------------------------------------------------------------
+Product Name                  |Unit        |  Op.St|  St-In| St-Out|    Bal|       Value|
+-----------------------------------------------------------------------------------------
+ACOTOP ER TAB                  1*10TAB            9       0       0       9      1659.02
+AD-10 SACHET                   1*1SAC          1458       0    1400      58       530.00
+AD-100 CAP                     10TAB            215       0      87     128     11796.29
+AD-30 SACHET.                  1*10 SAC           0       0       0       0         0.00
+BILASET 20MG                   1*10TAB            8       0       8       0         0.00
+BILASET M SUSP                 1*60ml             0      20       0      20      1428.00
+BILASET SYP                    60 ML             13       0       0      13       867.81
+BILASET-M TAB                  1*10 TAB         242       0      93     149      8476.69
+BIXIVA 5 MG TAB                1*10 TAB          20       0      15       5       712.75
+GENXVAST-10MG TAB              10 TAB            20       0       0      20       295.60
+GENXVAST-20MG TAB              10 TAB            12       2       4      10       203.34
+GENXVAST-5MG TAB               10 TAB             0       0       0       0         0.00
+GENXVAST-F TAB                 10 TAB            10       0       0      10       334.80
+GOCAN-150 MG TAB               1*1TAB           523       0     152     371      2210.80
+HEADRIX TAB                    10 TAB            48       0       0      48      5149.44
+ITBOR-100MG TAB                7 TAB            136       0       6     130      5459.12
+ITBOR-200MG CAP                7 CAP            250       0      18     232     20189.47
+LASMIG 100 MG TAB              4 TAB             10       0       0      10      1890.00
+LASMIG 50 MG TAB               1*4 tab           10       0       0      10      1349.98
+LAZ-250MG TAB                  6 TAB            382       0      24     358     17403.92
+LAZ-500MG TAB                  1*6              939       2      28     913     77669.45
+LAZINE TAB                     10 TAB           114       0       0     114      3617.97
+LAZINE-M TAB                   10 TAB           236       0      64     172      8565.61
+LULIBOR CREAM                  30GM              64       0      46      18      2164.62
+LULIBOR CREAM 15 GM            1*15 GM          104       0      21      83      4998.26
+LULIBOR LOTION ADVANCED 30ML   1*30ml            69       0      58      11      1174.23
+MOISTE CREAM                   50 GM            144       0      32     112      9419.62
+OPOX-100 DRY SYP-H1            30 ML            191       0      25     166     12491.93
+OPOX-100 DT TAB-H1             10 TAB           144       2      64      82      7386.99
+OPOX-200MG TAB H1              10 TAB          1553       0     100    1453    120965.69
+OPOX-50DT TAB H1               10 TAB            46       0      20      26      1170.59
+OPOX-50MG SYRUP H1             30 ML            187       0      16     171      7528.95
+OPOX-CV-100MG SYP-H1           30 ML            109       2       4     107     10181.43
+OPOX-CV-100MG TAB H1           10 TAB            36       0       0      36      3606.46
+OPOX-CV-200MG TAB-H1           10 TAB           108       0     105       3       604.08
+OPOX-CV-50MG SYRUP H1          30 ML            133       4      20     117      7684.76
+OPOX-DROPS. H1                 10 ML             57       0       2      55      2715.39
+PANTIN-40MG TAB                10 TAB           474       0     343     131      6538.70
+PANTIN-80 MG TAB               1*10 tab         423       0      85     338     20355.68
+PANTIN-D CAP                   10 CAP          2665       0    1163    1502     67479.16
+PANTIN-I.V.INJ                 1 VIAL         10684       0    7560    3124     34507.58
+PANTIN-L CAP                   10 CAP           225     713     348     590     44764.64
+PANTIN-RD TAB                  10 TAB            77       0      62      15       697.65
+TANZ TAB                       10 TAB            52       0       0      52      2177.24
+VERTIGEN TAB                   10 TAB           202       0      87     115      7225.61
+-----------------------------------------------------------------------------------------
+Total Opening :    778659.70
+Total St-In   :     56131.13
+Total St-Out  :    289141.51
+Total Closing :    545649.32
+ 
+Total Purchase Value       :     54710.00
+Total Sale Value(At Cost)  :    267406.68
+Total Sale Value(At S.Rate):    291791.13
+=========================================================================================

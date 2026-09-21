@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PaddleOCR Studio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="app-header">
+    <div class="header-left">
+      <div class="logo-badge">
+        <svg class="logo-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+          <polyline points="14 2 14 8 20 8"></polyline>
+          <line x1="16" y1="13" x2="8" y2="13"></line>
+          <line x1="16" y1="17" x2="8" y2="17"></line>
+          <polyline points="10 9 9 9 8 9"></polyline>
+        </svg>
+        <span class="logo-text">PaddleOCR <span class="logo-highlight">Studio</span></span>
+      </div>
+      <div class="engine-badge" id="engineBadge" title="OCR engine status">
+        <span class="status-dot"></span>
+        <span id="engineBadgeText">PP-OCRv6 medium</span>
+      </div>
+    </div>
+
+    <div class="header-center">
+      <!-- Document selector -->
+      <div class="run-selector-container">
+        <label for="docSelect" class="selector-label">Document</label>
+        <select id="docSelect" class="run-select" title="Choose a processed document">
+          <option value="">Loading documents…</option>
+        </select>
+        <button id="refreshRunsBtn" class="icon-btn" title="Refresh documents list">
+          <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M23 4v6h-6"></path>
+            <path d="M1 20v-6h6"></path>
+            <path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"></path>
+          </svg>
+        </button>
+      </div>
+
+      <!-- Page navigator -->
+      <div class="page-nav-container" id="pageNavContainer">
+        <button id="prevPageBtn" class="icon-btn" title="Previous page (←)">
+          <svg viewBox="0 0 24 24" width="14" height="14" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="15 18 9 12 15 6"></polyline>
+          </svg>
+        </button>
+        <div class="page-indicator">
+          <span>Page</span>
+          <select id="pageSelect" class="page-select" title="Jump to page"></select>
+          <span id="totalPagesLabel">of 1</span>
+        </div>
+        <button id="nextPageBtn" class="icon-btn" title="Next page (→)">
+          <svg viewBox="0 0 24 24" width="14" height="14" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="9 18 15 12 9 6"></polyline>
+          </svg>
+        </button>
+        <div class="view-scope-toggle">
+          <button id="btnScopePage" class="scope-btn active" title="Inspect the active page only">Page</button>
+          <button id="btnScopeAll" class="scope-btn" title="Combine every page of this document">All</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="header-right">
+      <button id="openRunModalBtn" class="btn btn-primary" title="Run a new extraction (Ctrl+N)">
+        <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <polygon points="5 3 19 12 5 21 5 3"></polygon>
+        </svg>
+        Run New OCR
+      </button>
+    </div>
+  </header>
+
+  <!-- Metrics -->
+  <section class="stats-bar" id="statsBar">
+    <div class="stat-card">
+      <span class="stat-label">Total Lines</span>
+      <span class="stat-value" id="statLines">—</span>
+    </div>
+    <div class="stat-card">
+      <span class="stat-label">Word Count</span>
+      <span class="stat-value" id="statWords">—</span>
+    </div>
+    <div class="stat-card">
+      <span class="stat-label">Avg Confidence</span>
+      <span class="stat-value stat-success" id="statAvgConf">—</span>
+    </div>
+    <div class="stat-card">
+      <span class="stat-label">High Conf (&ge;90%)</span>
+      <span class="stat-value" id="statHighConf">—</span>
+    </div>
+    <div class="stat-card">
+      <span class="stat-label">Document Pages</span>
+      <span class="stat-value stat-muted" id="statPagesInfo">—</span>
+    </div>
+    <div class="stat-card stat-card-file">
+      <span class="stat-label">Source Document</span>
+      <span class="stat-value stat-filepath" id="statFilepath" title="">—</span>
+    </div>
+  </section>
+
+  <!-- Main split -->
+  <main class="main-layout">
+    <!-- Left: visual inspector -->
+    <section class="viewer-pane">
+      <div class="pane-header">
+        <div class="pane-title-group">
+          <svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+            <circle cx="8.5" cy="8.5" r="1.5"></circle>
+            <polyline points="21 15 16 10 5 21"></polyline>
+          </svg>
+          <span class="pane-title" id="imagePaneTitle">Document &amp; Bounding Boxes</span>
+        </div>
+        <div class="viewer-toolbar">
+          <div class="mode-toggles">
+            <button class="toggle-btn active" id="btnModeAnnotated" title="Show detected boxes">Annotated</button>
+            <button class="toggle-btn" id="btnModeOriginal" title="Show the crisp original page">Original</button>
+          </div>
+          <div class="zoom-controls">
+            <button class="icon-btn" id="zoomOutBtn" title="Zoom out (−)">−</button>
+            <span id="zoomLevel" class="zoom-level">100%</span>
+            <button class="icon-btn" id="zoomInBtn" title="Zoom in (+)">+</button>
+            <button class="icon-btn" id="zoomFitBtn" title="Fit to viewport (0)" style="width: auto; padding: 0 9px; font-size: 0.72rem; font-weight: 700;">Fit</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="image-viewport" id="imageViewport">
+        <div class="empty-state" id="imageEmptyState">
+          <svg viewBox="0 0 24 24" width="52" height="52" stroke="currentColor" stroke-width="1.4" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+            <circle cx="8.5" cy="8.5" r="1.5"></circle>
+            <polyline points="21 15 16 10 5 21"></polyline>
+          </svg>
+          <p id="emptyStateText">No document loaded yet — run an extraction to get started.</p>
+        </div>
+
+        <div class="image-stage" id="imageStage" style="display: none;">
+          <div class="image-wrapper" id="imageWrapper">
+            <img id="annotatedImage" class="viewport-img" alt="Annotated OCR result" />
+            <img id="originalImage" class="viewport-img" alt="Original page" style="display: none;" />
+            <svg id="boxesOverlay" class="boxes-overlay"></svg>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Right: extracted output -->
+    <section class="output-pane">
+      <div class="pane-header">
+        <div class="tabs-nav">
+          <button class="tab-btn active" data-tab="plainTextTab">
+            <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+              <line x1="16" y1="13" x2="8" y2="13"></line>
+              <line x1="16" y1="17" x2="8" y2="17"></line>
+              <line x1="10" y1="9" x2="8" y2="9"></line>
+            </svg>
+            Plain Text
+          </button>
+          <button class="tab-btn" data-tab="jsonTab">
+            <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="16 18 22 12 16 6"></polyline>
+              <polyline points="8 6 2 12 8 18"></polyline>
+            </svg>
+            JSON Output
+          </button>
+          <button class="tab-btn" data-tab="tableTab">
+            <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="8" y1="6" x2="21" y2="6"></line>
+              <line x1="8" y1="12" x2="21" y2="12"></line>
+              <line x1="8" y1="18" x2="21" y2="18"></line>
+              <line x1="3" y1="6" x2="3.01" y2="6"></line>
+              <line x1="3" y1="12" x2="3.01" y2="12"></line>
+              <line x1="3" y1="18" x2="3.01" y2="18"></line>
+            </svg>
+            Line Inspector
+          </button>
+        </div>
+
+        <div class="tab-actions" id="tabActions">
+          <button id="copyCurrentBtn" class="btn btn-secondary btn-sm" title="Copy what is currently shown">
+            <svg viewBox="0 0 24 24" width="14" height="14" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+              <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+            </svg>
+            <span id="copyBtnText">Copy Text</span>
+          </button>
+          <button id="downloadCurrentBtn" class="btn btn-secondary btn-sm" title="Download what is currently shown">
+            <svg viewBox="0 0 24 24" width="14" height="14" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+              <polyline points="7 10 12 15 17 10"></polyline>
+              <line x1="12" y1="15" x2="12" y2="3"></line>
+            </svg>
+            Download
+          </button>
+        </div>
+      </div>
+
+      <div class="tabs-container">
+        <!-- Plain text -->
+        <div class="tab-pane active" id="plainTextTab">
+          <div class="plain-text-toolbar">
+            <div class="format-options">
+              <label class="radio-label">
+                <input type="radio" name="textFormat" value="numbered" checked />
+                <span>Numbered</span>
+              </label>
+              <label class="radio-label">
+                <input type="radio" name="textFormat" value="raw" />
+                <span>Raw Text</span>
+              </label>
+              <label class="radio-label">
+                <input type="radio" name="textFormat" value="compact" />
+                <span>Paragraph</span>
+              </label>
+            </div>
+            <div class="search-box">
+              <svg viewBox="0 0 24 24" width="14" height="14" stroke="currentColor" stroke-width="2.2" fill="none" stroke-linecap="round">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+              <input type="text" id="plainTextSearch" placeholder="Filter extracted text…" />
+            </div>
+          </div>
+          <div class="code-view-wrapper">
+            <pre class="code-view" id="plainTextView"><code>Loading extracted text…</code></pre>
+          </div>
+        </div>
+
+        <!-- JSON -->
+        <div class="tab-pane" id="jsonTab">
+          <div class="json-toolbar">
+            <div class="format-options">
+              <label class="radio-label" title="The document's table: headings, one object per row, and which rows need review">
+                <input type="radio" name="jsonType" value="report" checked />
+                <span>Structured report</span>
+              </label>
+              <label class="radio-label" title="Every line OCR read, in reading order, with its confidence">
+                <input type="radio" name="jsonType" value="clean" />
+                <span>Lines</span>
+              </label>
+              <label class="radio-label">
+                <input type="radio" name="jsonType" value="raw" />
+                <span>Raw PaddleOCR</span>
+              </label>
+            </div>
+            <div class="search-box">
+              <svg viewBox="0 0 24 24" width="14" height="14" stroke="currentColor" stroke-width="2.2" fill="none" stroke-linecap="round">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+              <input type="text" id="jsonSearch" placeholder="Filter JSON lines…" />
+            </div>
+          </div>
+          <div class="code-view-wrapper">
+            <pre class="code-view" id="jsonView"><code>Loading JSON output…</code></pre>
+          </div>
+        </div>
+
+        <!-- Line inspector -->
+        <div class="tab-pane" id="tableTab">
+          <div class="table-toolbar">
+            <div class="search-box table-search">
+              <svg viewBox="0 0 24 24" width="14" height="14" stroke="currentColor" stroke-width="2.2" fill="none" stroke-linecap="round">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+              <input type="text" id="tableSearch" placeholder="Search recognised lines…" />
+            </div>
+            <div class="table-counts" id="tableFilterCount">Showing all lines</div>
+          </div>
+          <div class="table-wrapper">
+            <table class="ocr-table" id="ocrTable">
+              <thead>
+                <tr>
+                  <th style="width: 62px;">#</th>
+                  <th>Recognised Text</th>
+                  <th style="width: 118px;">Confidence</th>
+                  <th style="width: 150px;">Box Bounds</th>
+                  <th style="width: 62px;">Copy</th>
+                </tr>
+              </thead>
+              <tbody id="ocrTableBody">
+                <tr><td colspan="5" class="table-loading">Loading rows…</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Run OCR modal -->
+  <div class="modal-backdrop" id="runModal" style="display: none;">
+    <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="runModalTitle">
+      <div class="modal-header">
+        <h3 class="modal-title" id="runModalTitle">Run PaddleOCR Extraction</h3>
+        <button class="icon-btn" id="closeRunModalBtn" title="Close (Esc)">&times;</button>
+      </div>
+      <div class="modal-body">
+        <p class="modal-desc">
+          Upload a PDF or image, or point at a file already on this machine. Pages are written to
+          <code>output/</code> as soon as each one finishes, and appear here live.
+        </p>
+
+        <div class="form-group">
+          <label>Upload document</label>
+          <div class="drop-zone" id="dropZone">
+            <input type="file" id="fileInput" accept=".pdf,.png,.jpg,.jpeg,.bmp,.webp,.tif,.tiff" style="display: none;" />
+            <svg class="drop-icon" viewBox="0 0 24 24" width="38" height="38" stroke="currentColor" stroke-width="1.7" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+              <polyline points="17 8 12 3 7 8"></polyline>
+              <line x1="12" y1="3" x2="12" y2="15"></line>
+            </svg>
+            <p class="drop-text"><strong>Click to browse</strong> or drag &amp; drop a file here</p>
+            <p class="drop-subtext">PDF, PNG, JPG, BMP, WEBP, TIFF — up to 256 MB</p>
+          </div>
+          <div class="selected-file-card" id="selectedFileCard" style="display: none;">
+            <div class="file-card-info">
+              <svg class="file-card-icon" viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                <polyline points="14 2 14 8 20 8"></polyline>
+              </svg>
+              <div>
+                <div class="file-card-name" id="selectedFileName">document.pdf</div>
+                <div class="file-card-size" id="selectedFileSize">0 KB</div>
+              </div>
+            </div>
+            <button class="icon-btn btn-sm" id="removeFileBtn" title="Remove selected file">&times;</button>
+          </div>
+        </div>
+
+        <div class="divider-or"><span>OR USE A LOCAL PATH</span></div>
+
+        <div class="form-group">
+          <label for="imagePathInput">Absolute file path</label>
+          <input
+            type="text"
+            id="imagePathInput"
+            class="form-control"
+            value=""
+            placeholder="D:\scans\invoice.pdf"
+          />
+          <p class="drop-subtext">
+            Only paths inside the project folder are readable by default. To allow another folder,
+            start the server with <code>OCR_ALLOWED_DIRS</code> set to it.
+          </p>
+        </div>
+
+        <div class="form-group">
+          <label>PDF page range</label>
+          <div class="page-mode-options">
+            <label class="radio-label">
+              <input type="radio" name="modalPageMode" value="first" checked />
+              <span><strong>First page only</strong> — quick preview</span>
+            </label>
+            <label class="radio-label">
+              <input type="radio" name="modalPageMode" value="range" />
+              <span><strong>Page range</strong> — from
+                <input type="number" id="modalStartPage" class="page-input" min="1" value="1" /> to
+                <input type="number" id="modalEndPage" class="page-input" min="1" value="2" />
+              </span>
+            </label>
+            <label class="radio-label">
+              <input type="radio" name="modalPageMode" value="all" />
+              <span><strong>All pages</strong> — full document</span>
+            </label>
+          </div>
+        </div>
+
+        <div class="info-alert">
+          <svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="10"></circle>
+            <line x1="12" y1="16" x2="12" y2="12"></line>
+            <line x1="12" y1="8" x2="12.01" y2="8"></line>
+          </svg>
+          <span>The job runs in the background. You can close this dialog and keep working — finished pages appear in the document list as they land.</span>
+        </div>
+
+        <div id="runProgress" class="run-progress" style="display: none;">
+          <div class="progress-head">
+            <div class="spinner"></div>
+            <span id="runProgressText">Starting…</span>
+            <span class="progress-count" id="runProgressCount"></span>
+          </div>
+          <div class="progress-track indeterminate" id="runProgressTrack">
+            <div class="progress-fill" id="runProgressFill"></div>
+          </div>
+        </div>
+
+        <div id="runError" class="error-banner" style="display: none;"></div>
+      </div>
+      <div class="modal-footer">
+        <button id="cancelRunBtn" class="btn btn-secondary">Cancel</button>
+        <button id="executeRunBtn" class="btn btn-primary">
+          <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <polygon points="5 3 19 12 5 21 5 3"></polygon>
+          </svg>
+          Execute OCR
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="toast-container" id="toastContainer"></div>
+
+  <script src="/app.js"></script>
+</body>
+</html>

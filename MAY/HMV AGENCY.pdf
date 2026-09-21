@@ -1,0 +1,139 @@
+%PDF-1.2 
+%сссс
+1 0 obj
+<<
+/Creator  ( PSOPDF)
+/Producer (VB to PDF)
+/Title (VBTOPDF)
+>>
+endobj
+4 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F1
+/Encoding 5 0 R
+/BaseFont /Courier
+>>
+endobj
+5 0 obj
+<<
+/Type /Encoding
+/BaseEncoding /WinAnsiEncoding
+>>
+endobj
+6 0 obj
+<<
+/Font << /F1 4 0 R   >> /ProcSet [ /PDF  /Text ]
+>>
+endobj
+7 0 obj
+<<
+/Type /Page
+/Parent 3 0 R
+/Resources 6 0 R
+/Contents 8 0 R
+>>
+endobj
+8 0 obj
+<<
+/Length 9 0 R
+>>
+stream
+BT
+/F1 9 Tf
+1 0 0 1 50 775 Tm
+12 TL
+T* (                                                                                                                   ) Tj
+T* (                                  HMV AGENCIES                                                           ) Tj
+T* (                                                                                                                   ) Tj
+T* (                                 LATUR - 413512                                                          ) Tj
+T* (Date: 30-05-2026                                                                                         ) Tj
+T* (                                                                                                                   ) Tj
+T* (Stock & Sales Report From 01/05/2026 To 30/05/2026                                                      ) Tj
+T* (Company Name : GENX   PHARMA  LTD -                                                                                ) Tj
+T* (===================================================================================================================) Tj
+T* (No   Product Name              Pack    Opstk       Pur  PurRet Trans      Sale SRet CurStk    StkVal    SalVal Exp ) Tj
+T* (===================================================================================================================) Tj
+T* (1   ACOTOP ER TABS            10 TAB     78       120       -     -       138    -     60   9609.00  23401.79   - ) Tj
+T* (2   BILASET M TAB             10 TAB      0         -       -     -         -    -      0         -      0.00   - ) Tj
+T* (3   BIXIVA 5MG TAB            10 TAB      0        10       -     -         -    -     10   1357.70      0.00   - ) Tj
+T* (4   GENXVAST F TAB            10TAB       4         -       -     -         -    -      4    119.32      0.00   X ) Tj
+T* (5   GENXVAST-10 TAB           10         20         -       -     -         -    -     20    267.00      0.00   X ) Tj
+T* (6   GENXVAST-20  TAB          10TAB      20         -       -     -         -    -     20    388.20      0.00   Y ) Tj
+T* (7   ITBOR 100 MG CAP          10CAP      22         -       -     -         3    -     19    747.08    131.08   - ) Tj
+T* (8   ITBOR 200 CAPS            10 CAP     12         -       -     -         -    -     12    936.96      0.00   X ) Tj
+T* (9   LAZ 500 TAB               6TAB       12         -       -     -         -    -     12    925.80      0.00   Y ) Tj
+T* (10  OPOX -200                 10         22        60       -     -        18    -     64   5434.88   1612.24   - ) Tj
+T* (11  OPOX 50DRY SY             30        137         -       -     -         -    -    137   5636.18      0.00   - ) Tj
+T* (12  OPOX-100  SY              30ML       52         -       -     -         -    -     52   3719.04      0.00   - ) Tj
+T* (13  OPOX-CV 50 SUS            30ML       86         -       -     -        13    -     73   4509.21    865.43   - ) Tj
+T* (14  PANTIN -IV INJ            10        415       700       -     -       747    -    368   3871.36   8493.55   - ) Tj
+T* (15  PANTIN 40 TAB             15TAB     190       300       -     -       340    -    150   7131.00  18022.59   - ) Tj
+T* (16  PANTIN D CAP              10CAP     126        75       -     -       118    -     82   3508.78   5460.92   - ) Tj
+T* (17  VERTIGEN  TAB             10TAB      13        55       -     -        22    -     46   2788.98   1459.89   - ) Tj
+T* (-------------------------------------------------------------------------------------------------------------------) Tj
+T* (    Total                              1209      1320       -     -      1399    -   1129         -         -   - ) Tj
+T* (-------------------------------------------------------------------------------------------------------------------) Tj
+T* (Opg.Stk Val:    52753.96 Purc.Value: :    53841.23 Sales Value::    59447.49                                       ) Tj
+T* (Cl.Stk Val:     50950.49 Pur.RetVal ::        0.00 SalRet Val: :        0.00                                       ) Tj
+T* (Apr Sal:        59250.00 Mar Sal:    :    77808.00 NetSal\(GVal\):    59447.49                                     ) Tj
+T* (Oth.SalVal:         0.00 Tran.Stk.IN::        0.00 Tran.Stk.Out:       64.18                                       ) Tj
+T* (                                                                                                                   ) Tj
+T* (                                                                                                                   ) Tj
+T* (                                                                                                                   ) Tj
+T* (                                                                                                                   ) Tj
+T* (Non Moving items Report Non Move Days > 90                                                                         ) Tj
+T* (========================================================================================                           ) Tj
+T* (Prod.Name                 Packing    Batch      Qty       Days                                                     ) Tj
+T* (========================================================================================                           ) Tj
+T* (Company Name : GENX   PHARMA  LTD                                                                                  ) Tj
+T* (GENXVAST F TAB            10TAB      GT25292A   4         172                                                      ) Tj
+T* (GENXVAST-10 TAB           10         2GT25333A  20        143                                                      ) Tj
+T* (GENXVAST-20  TAB          10TAB      2GT25334A  20        194                                                      ) Tj
+T* (----------------------------------------------------------------------------------------                           ) Tj
+T* (                                                                                                                   ) Tj
+T* (                                       *** END OF REPORT ***                                                       ) Tj
+T* (                                                                                                                   ) Tj
+ET
+endstream
+endobj
+9 0 obj
+4635
+endobj
+2 0 obj
+<<
+/Type /Catalog
+/Pages 3 0 R
+/PageLayout /OneColumn
+>>
+endobj
+3 0 obj
+<<
+/Type /Pages
+/Count 1
+/MediaBox [ 0 0 750 854 ]
+/Kids [ 7 0 R ]
+>>
+endobj
+xref
+010
+0000000000 65535 f
+0000000017 00000 n
+0000005201 00000 n
+0000005280 00000 n
+0000000144 00000 n
+0000000247 00000 n
+0000000321 00000 n
+0000000396 00000 n
+0000000484 00000 n
+0000005178 00000 n
+trailer
+<<
+/Size 10
+/Root 2 0 R
+/Info 1 0 R
+>>
+startxref
+5373
+%%EOF

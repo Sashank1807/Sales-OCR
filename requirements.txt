@@ -1,0 +1,22 @@
+# PaddleOCR Studio - runtime dependencies
+# Pinned to the versions this project is known to run on (Python 3.10).
+#
+#   python -m venv venv
+#   venv\Scripts\activate          (Windows)   |   source venv/bin/activate  (Linux/macOS)
+#   pip install -r requirements.txt
+#
+# The server itself uses only the standard library; everything below is for OCR.
+
+# --- OCR engine -------------------------------------------------------------
+paddlepaddle==3.3.1          # CPU build. For CUDA, install the matching
+                             # paddlepaddle-gpu wheel from paddlepaddle.org.cn
+                             # instead of this line.
+paddleocr==3.7.0
+paddlex==3.7.2               # pulled in by paddleocr; pinned for reproducibility
+
+# --- Document & image handling ---------------------------------------------
+pypdfium2==5.13.0            # renders PDF pages for the "Original" view
+pillow==12.3.0
+opencv-contrib-python==4.10.0.84
+numpy==2.2.6
+pillow-heif>=1.0  # HEIC phone photos

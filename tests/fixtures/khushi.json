@@ -1,0 +1,127 @@
+{
+ "page": 1,
+ "source": "pdf_text",
+ "rows": [
+  {
+   "index": 0,
+   "cells": [
+    "KHUSHI HEALTHCARE"
+   ]
+  },
+  {
+   "index": 1,
+   "cells": [
+    "P. N. 33 AND 34, BANSIDHAR NAGAR,CANOL ROAD, BEED"
+   ]
+  },
+  {
+   "index": 2,
+   "cells": [
+    "Stock and sales Statement from : 01/04/2026 to 05/09/2026"
+   ]
+  },
+  {
+   "index": 3,
+   "cells": [
+    "Company : HETRO HEALTHCARE LTD   Report type All Item Report   Page : 1"
+   ]
+  },
+  {
+   "index": 4,
+   "cells": [
+    "Particulars",
+    "Pkg.",
+    "Open. Qty.",
+    "Purch. Qty.",
+    "Sales Ret.",
+    "Sales & DC",
+    "Misc. Out",
+    "Close Stock",
+    "Closing Value",
+    "Sales Value"
+   ]
+  },
+  {
+   "index": 5,
+   "cells": [
+    "SYP"
+   ]
+  },
+  {
+   "index": 6,
+   "cells": [
+    "HERAFT 150ML",
+    "1",
+    "-",
+    "140",
+    "-",
+    "140",
+    "-",
+    "-",
+    "-",
+    "14000.00"
+   ]
+  },
+  {
+   "index": 7,
+   "cells": [
+    "TABLETS"
+   ]
+  },
+  {
+   "index": 8,
+   "cells": [
+    "TEDITRATE 200 MG TAB",
+    "6S",
+    "-",
+    "20",
+    "-",
+    "20",
+    "-",
+    "-",
+    "-",
+    "13333.40"
+   ]
+  },
+  {
+   "index": 9,
+   "cells": [
+    "Grand Total.",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "0.00",
+    "27333.40"
+   ]
+  },
+  {
+   "index": 10,
+   "cells": [
+    "List of Items with expiry between 05/09/2026 and 03/01/2027"
+   ]
+  },
+  {
+   "index": 11,
+   "cells": [
+    "Product",
+    "Pkg",
+    "BATCHNO",
+    "EXPIRY",
+    "Stock"
+   ]
+  },
+  {
+   "index": 12,
+   "cells": [
+    "Bill No",
+    "Bill Date",
+    "Gross Amount",
+    "Net Amount"
+   ]
+  }
+ ]
+}

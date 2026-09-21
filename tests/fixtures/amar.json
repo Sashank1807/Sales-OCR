@@ -1,0 +1,868 @@
+{
+ "page": 1,
+ "source": "pdf_text",
+ "rows": [
+  {
+   "index": 0,
+   "cells": [
+    "AMAR PHARMACEUTICALS"
+   ]
+  },
+  {
+   "index": 1,
+   "cells": [
+    "SHOP NO.7,KAPOOR MARKET,KUCHA DAI KHANA"
+   ]
+  },
+  {
+   "index": 2,
+   "cells": [
+    "KATRA SHER SINGH-AMRITSAR"
+   ]
+  },
+  {
+   "index": 3,
+   "cells": [
+    "From : 01/Aug/2026 To 31/Aug/2026"
+   ]
+  },
+  {
+   "index": 4,
+   "cells": [
+    "STOCK SUMMARY"
+   ]
+  },
+  {
+   "index": 5,
+   "cells": [
+    "Description",
+    "Code",
+    "Opening",
+    "In",
+    "Out",
+    "Balance",
+    "Unit",
+    "Rate",
+    "Value"
+   ]
+  },
+  {
+   "index": 6,
+   "cells": [
+    "AD 10 SACHETS",
+    "",
+    "10.00",
+    "50.000",
+    "10.000",
+    "50.000",
+    "1 GM",
+    "9.26",
+    "463.00"
+   ]
+  },
+  {
+   "index": 7,
+   "cells": [
+    "AD 100 CAP",
+    "",
+    "9.00",
+    "30.000",
+    "9.000",
+    "30.000",
+    "1*10",
+    "87.77",
+    "2633.10"
+   ]
+  },
+  {
+   "index": 8,
+   "cells": [
+    "BILASTERO 20 TAB",
+    "",
+    "53.00",
+    "-",
+    "-",
+    "53.000",
+    "1*10",
+    "44.84",
+    "2376.41"
+   ]
+  },
+  {
+   "index": 9,
+   "cells": [
+    "BILASTERO M TAB",
+    "",
+    "65.00",
+    "-",
+    "-",
+    "65.000",
+    "1*10",
+    "85.98",
+    "5588.51"
+   ]
+  },
+  {
+   "index": 10,
+   "cells": [
+    "C FURO 250 TAB",
+    "",
+    "53.00",
+    "-",
+    "42.000",
+    "11.000",
+    "1*10",
+    "127.43",
+    "1401.68"
+   ]
+  },
+  {
+   "index": 11,
+   "cells": [
+    "C FURO 500TAB",
+    "",
+    "122.00",
+    "3.000",
+    "5.000",
+    "120.000",
+    "1*10",
+    "238.08",
+    "28569.96"
+   ]
+  },
+  {
+   "index": 12,
+   "cells": [
+    "C FURO CV 625 TAB",
+    "",
+    "25.00",
+    "10.000",
+    "25.000",
+    "10.000",
+    "1*6",
+    "204.77",
+    "2047.68"
+   ]
+  },
+  {
+   "index": 13,
+   "cells": [
+    "C FURO DRY SYP",
+    "",
+    "92.00",
+    "6.000",
+    "30.000",
+    "68.000",
+    "30ML",
+    "96.12",
+    "6535.96"
+   ]
+  },
+  {
+   "index": 14,
+   "cells": [
+    "CARITERO TAB",
+    "",
+    "11.00",
+    "-",
+    "2.000",
+    "9.000",
+    "1*15",
+    "212.57",
+    "1913.12"
+   ]
+  },
+  {
+   "index": 15,
+   "cells": [
+    "DA SUTRA 30X TAB",
+    "",
+    "49.00",
+    "-",
+    "25.000",
+    "24.000",
+    "1*4",
+    "33.94",
+    "814.61"
+   ]
+  },
+  {
+   "index": 16,
+   "cells": [
+    "ECO ALL GOLD CAP",
+    "",
+    "77.00",
+    "124.000",
+    "58.000",
+    "143.000",
+    "1*10",
+    "99.08",
+    "14168.87"
+   ]
+  },
+  {
+   "index": 17,
+   "cells": [
+    "Eco All Liquid",
+    "",
+    "1431.00",
+    "-",
+    "845.000",
+    "586.000",
+    "5ML",
+    "18.72",
+    "10971.68"
+   ]
+  },
+  {
+   "index": 18,
+   "cells": [
+    "FAROCE 200 TAB",
+    "",
+    "-",
+    "40.000",
+    "-",
+    "40.000",
+    "1*10",
+    "369.43",
+    "14777.20"
+   ]
+  },
+  {
+   "index": 19,
+   "cells": [
+    "FEXONA TAB",
+    "",
+    "20.00",
+    "-",
+    "10.000",
+    "10.000",
+    "1*10",
+    "79.79",
+    "797.94"
+   ]
+  },
+  {
+   "index": 20,
+   "cells": [
+    "FORSLEEP ORAL SPRAY",
+    "",
+    "-",
+    "1.000",
+    "1.000",
+    "-",
+    "15G",
+    "133.39",
+    "-"
+   ]
+  },
+  {
+   "index": 21,
+   "cells": [
+    "HETCLARI 250 TAB",
+    "",
+    "15.00",
+    "130.000",
+    "-",
+    "145.000",
+    "1*10",
+    "105.56",
+    "15305.48"
+   ]
+  },
+  {
+   "index": 22,
+   "cells": [
+    "ITBOR 100 CAP",
+    "",
+    "-",
+    "74.000",
+    "14.000",
+    "60.000",
+    "1*10",
+    "42.81",
+    "2568.42"
+   ]
+  },
+  {
+   "index": 23,
+   "cells": [
+    "LYCEFT 1 GM INJ",
+    "",
+    "263.00",
+    "-",
+    "200.000",
+    "63.000",
+    "1GM",
+    "18.36",
+    "1156.93"
+   ]
+  },
+  {
+   "index": 24,
+   "cells": [
+    "MIKATERO INJ",
+    "",
+    "800.00",
+    "800.000",
+    "800.000",
+    "800.000",
+    "500MG.",
+    "20.43",
+    "16344.00"
+   ]
+  },
+  {
+   "index": 25,
+   "cells": [
+    "NERVOK HP INJ",
+    "",
+    "105.00",
+    "-",
+    "105.000",
+    "-",
+    "2ML",
+    "12.98",
+    "-"
+   ]
+  },
+  {
+   "index": 26,
+   "cells": [
+    "ONDATERO INJ 2MG/2ML INJ",
+    "",
+    "1243.00",
+    "1000.000",
+    "750.000",
+    "1493.000",
+    "2MG/2I",
+    "1.92",
+    "2865.07"
+   ]
+  },
+  {
+   "index": 27,
+   "cells": [
+    "ONDATERO MD 4 TAB",
+    "",
+    "40.00",
+    "130.000",
+    "39.000",
+    "131.000",
+    "1*10",
+    "28.91",
+    "3786.95"
+   ]
+  },
+  {
+   "index": 28,
+   "cells": [
+    "OPOX 100 DT TAB",
+    "",
+    "-",
+    "2.000",
+    "2.000",
+    "-",
+    "1*10",
+    "94.50",
+    "-"
+   ]
+  },
+  {
+   "index": 29,
+   "cells": [
+    "PANTIN 40 TAB",
+    "",
+    "25.00",
+    "-",
+    "9.000",
+    "16.000",
+    "1*15",
+    "47.58",
+    "761.22"
+   ]
+  }
+ ],
+ "tokens": [
+  {
+   "text": "10.00",
+   "confidence": 0.97
+  },
+  {
+   "text": "50.000",
+   "confidence": 0.97
+  },
+  {
+   "text": "10.000",
+   "confidence": 0.97
+  },
+  {
+   "text": "50.000",
+   "confidence": 0.97
+  },
+  {
+   "text": "9.26",
+   "confidence": 0.97
+  },
+  {
+   "text": "463.00",
+   "confidence": 0.97
+  },
+  {
+   "text": "9.00",
+   "confidence": 0.97
+  },
+  {
+   "text": "30.000",
+   "confidence": 0.97
+  },
+  {
+   "text": "9.000",
+   "confidence": 0.97
+  },
+  {
+   "text": "30.000",
+   "confidence": 0.97
+  },
+  {
+   "text": "87.77",
+   "confidence": 0.97
+  },
+  {
+   "text": "2633.10",
+   "confidence": 0.97
+  },
+  {
+   "text": "53.00",
+   "confidence": 0.97
+  },
+  {
+   "text": "53.000",
+   "confidence": 0.97
+  },
+  {
+   "text": "44.84",
+   "confidence": 0.97
+  },
+  {
+   "text": "2376.41",
+   "confidence": 0.97
+  },
+  {
+   "text": "65.00",
+   "confidence": 0.97
+  },
+  {
+   "text": "65.000",
+   "confidence": 0.97
+  },
+  {
+   "text": "85.98",
+   "confidence": 0.97
+  },
+  {
+   "text": "5588.51",
+   "confidence": 0.97
+  },
+  {
+   "text": "53.00",
+   "confidence": 0.97
+  },
+  {
+   "text": "42.000",
+   "confidence": 0.97
+  },
+  {
+   "text": "11.000",
+   "confidence": 0.97
+  },
+  {
+   "text": "127.43",
+   "confidence": 0.97
+  },
+  {
+   "text": "1401.68",
+   "confidence": 0.97
+  },
+  {
+   "text": "122.00",
+   "confidence": 0.97
+  },
+  {
+   "text": "3.000",
+   "confidence": 0.97
+  },
+  {
+   "text": "5.000",
+   "confidence": 0.97
+  },
+  {
+   "text": "120.000",
+   "confidence": 0.97
+  },
+  {
+   "text": "238.08",
+   "confidence": 0.97
+  },
+  {
+   "text": "28569.96",
+   "confidence": 0.97
+  },
+  {
+   "text": "25.00",
+   "confidence": 0.97
+  },
+  {
+   "text": "10.000",
+   "confidence": 0.97
+  },
+  {
+   "text": "25.000",
+   "confidence": 0.97
+  },
+  {
+   "text": "10.000",
+   "confidence": 0.97
+  },
+  {
+   "text": "204.77",
+   "confidence": 0.97
+  },
+  {
+   "text": "2047.68",
+   "confidence": 0.97
+  },
+  {
+   "text": "92.00",
+   "confidence": 0.97
+  },
+  {
+   "text": "6.000",
+   "confidence": 0.97
+  },
+  {
+   "text": "30.000",
+   "confidence": 0.97
+  },
+  {
+   "text": "68.000",
+   "confidence": 0.97
+  },
+  {
+   "text": "96.12",
+   "confidence": 0.97
+  },
+  {
+   "text": "6535.96",
+   "confidence": 0.97
+  },
+  {
+   "text": "11.00",
+   "confidence": 0.97
+  },
+  {
+   "text": "2.000",
+   "confidence": 0.97
+  },
+  {
+   "text": "9.000",
+   "confidence": 0.97
+  },
+  {
+   "text": "212.57",
+   "confidence": 0.97
+  },
+  {
+   "text": "1913.12",
+   "confidence": 0.97
+  },
+  {
+   "text": "49.00",
+   "confidence": 0.97
+  },
+  {
+   "text": "25.000",
+   "confidence": 0.97
+  },
+  {
+   "text": "24.000",
+   "confidence": 0.97
+  },
+  {
+   "text": "33.94",
+   "confidence": 0.97
+  },
+  {
+   "text": "814.61",
+   "confidence": 0.97
+  },
+  {
+   "text": "77.00",
+   "confidence": 0.97
+  },
+  {
+   "text": "124.000",
+   "confidence": 0.97
+  },
+  {
+   "text": "58.000",
+   "confidence": 0.97
+  },
+  {
+   "text": "143.000",
+   "confidence": 0.97
+  },
+  {
+   "text": "99.08",
+   "confidence": 0.97
+  },
+  {
+   "text": "14168.87",
+   "confidence": 0.97
+  },
+  {
+   "text": "1431.00",
+   "confidence": 0.97
+  },
+  {
+   "text": "845.000",
+   "confidence": 0.97
+  },
+  {
+   "text": "586.000",
+   "confidence": 0.97
+  },
+  {
+   "text": "18.72",
+   "confidence": 0.97
+  },
+  {
+   "text": "10971.68",
+   "confidence": 0.97
+  },
+  {
+   "text": "40.000",
+   "confidence": 0.97
+  },
+  {
+   "text": "40.000",
+   "confidence": 0.97
+  },
+  {
+   "text": "369.43",
+   "confidence": 0.97
+  },
+  {
+   "text": "14777.20",
+   "confidence": 0.97
+  },
+  {
+   "text": "20.00",
+   "confidence": 0.97
+  },
+  {
+   "text": "10.000",
+   "confidence": 0.97
+  },
+  {
+   "text": "10.000",
+   "confidence": 0.97
+  },
+  {
+   "text": "79.79",
+   "confidence": 0.97
+  },
+  {
+   "text": "797.94",
+   "confidence": 0.97
+  },
+  {
+   "text": "1.000",
+   "confidence": 0.97
+  },
+  {
+   "text": "1.000",
+   "confidence": 0.97
+  },
+  {
+   "text": "133.39",
+   "confidence": 0.97
+  },
+  {
+   "text": "15.00",
+   "confidence": 0.97
+  },
+  {
+   "text": "130.000",
+   "confidence": 0.97
+  },
+  {
+   "text": "145.000",
+   "confidence": 0.97
+  },
+  {
+   "text": "105.56",
+   "confidence": 0.97
+  },
+  {
+   "text": "15305.48",
+   "confidence": 0.97
+  },
+  {
+   "text": "74.000",
+   "confidence": 0.97
+  },
+  {
+   "text": "14.000",
+   "confidence": 0.97
+  },
+  {
+   "text": "60.000",
+   "confidence": 0.97
+  },
+  {
+   "text": "42.81",
+   "confidence": 0.97
+  },
+  {
+   "text": "2568.42",
+   "confidence": 0.97
+  },
+  {
+   "text": "263.00",
+   "confidence": 0.97
+  },
+  {
+   "text": "200.000",
+   "confidence": 0.97
+  },
+  {
+   "text": "63.000",
+   "confidence": 0.97
+  },
+  {
+   "text": "18.36",
+   "confidence": 0.97
+  },
+  {
+   "text": "1156.93",
+   "confidence": 0.97
+  },
+  {
+   "text": "800.00",
+   "confidence": 0.97
+  },
+  {
+   "text": "800.000",
+   "confidence": 0.97
+  },
+  {
+   "text": "800.000",
+   "confidence": 0.97
+  },
+  {
+   "text": "800.000",
+   "confidence": 0.97
+  },
+  {
+   "text": "20.43",
+   "confidence": 0.97
+  },
+  {
+   "text": "16344.00",
+   "confidence": 0.97
+  },
+  {
+   "text": "105.00",
+   "confidence": 0.97
+  },
+  {
+   "text": "105.000",
+   "confidence": 0.97
+  },
+  {
+   "text": "12.98",
+   "confidence": 0.97
+  },
+  {
+   "text": "1243.00",
+   "confidence": 0.97
+  },
+  {
+   "text": "1000.000",
+   "confidence": 0.97
+  },
+  {
+   "text": "750.000",
+   "confidence": 0.97
+  },
+  {
+   "text": "1493.000",
+   "confidence": 0.97
+  },
+  {
+   "text": "1.92",
+   "confidence": 0.97
+  },
+  {
+   "text": "2865.07",
+   "confidence": 0.97
+  },
+  {
+   "text": "40.00",
+   "confidence": 0.97
+  },
+  {
+   "text": "130.000",
+   "confidence": 0.97
+  },
+  {
+   "text": "39.000",
+   "confidence": 0.97
+  },
+  {
+   "text": "131.000",
+   "confidence": 0.97
+  },
+  {
+   "text": "28.91",
+   "confidence": 0.97
+  },
+  {
+   "text": "3786.95",
+   "confidence": 0.97
+  },
+  {
+   "text": "2.000",
+   "confidence": 0.97
+  },
+  {
+   "text": "2.000",
+   "confidence": 0.97
+  },
+  {
+   "text": "94.50",
+   "confidence": 0.97
+  },
+  {
+   "text": "25.00",
+   "confidence": 0.97
+  },
+  {
+   "text": "9.000",
+   "confidence": 0.97
+  },
+  {
+   "text": "16.000",
+   "confidence": 0.97
+  },
+  {
+   "text": "47.58",
+   "confidence": 0.97
+  },
+  {
+   "text": "761.22",
+   "confidence": 0.97
+  }
+ ]
+}

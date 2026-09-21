@@ -1,0 +1,48 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ocr-classifier"
+version = "1.0.0"
+description = "Pharmaceutical Distributor Stock & Sales Report Extraction Pipeline & PaddleOCR Studio"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "Apache-2.0" }
+authors = [
+    { name = "OCR Classifier Team" }
+]
+dependencies = [
+    "paddlepaddle>=3.0.0",
+    "paddleocr>=3.0.0",
+    "paddlex>=3.0.0",
+    "pypdfium2>=5.0.0",
+    "pymupdf>=1.23.0",
+    "openpyxl>=3.1.0",
+    "xlrd>=2.0.0",
+    "pillow>=10.0.0",
+    "numpy>=1.24.0",
+    "pytest>=8.0.0",
+]
+
+[project.urls]
+"Documentation" = "docs/README.md"
+"Repository" = "https://github.com/example/OCR_CLASSIFIER"
+
+[tool.pytest.ini_options]
+minversion = "7.0"
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "-ra --strict-markers"
+filterwarnings = [
+    "ignore::UserWarning:paddle.*",
+    "ignore::DeprecationWarning",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I"]
+ignore = ["E501"]

@@ -1,0 +1,692 @@
+{
+ "page": 1,
+ "source": "ocr",
+ "rows": [
+  {
+   "index": 0,
+   "cells": [
+    "KRISHNA PHARMA"
+   ]
+  },
+  {
+   "index": 1,
+   "cells": [
+    "AUD-H,C.C.RANI BAZAR GONDA-271002"
+   ]
+  },
+  {
+   "index": 2,
+   "cells": [
+    "Phone : 9554589902,9707364722 E-Mail : krishnapharmacc@gmail.com"
+   ]
+  },
+  {
+   "index": 3,
+   "cells": [
+    "GSTIN : 09AAKHR3684K1ZE"
+   ]
+  },
+  {
+   "index": 4,
+   "cells": [
+    "STOCK & SALES ANALYSIS (HETERO KRIS PLUS) 01-08-2026 - 26-08-2026"
+   ]
+  },
+  {
+   "index": 5,
+   "cells": [
+    "ITEM DESCRIPTION",
+    "",
+    "OPENING",
+    "RECEIPT",
+    "ISSUE",
+    "CLOSING"
+   ]
+  },
+  {
+   "index": 6,
+   "cells": [
+    {
+     "text": "HETERO KRIS PLUS",
+     "column": 0,
+     "confidence": 0.95
+    },
+    {
+     "text": "1X10",
+     "column": 1,
+     "confidence": 0.93
+    },
+    {
+     "text": "64",
+     "column": 2,
+     "confidence": 0.95
+    },
+    {
+     "text": "-",
+     "column": 3,
+     "confidence": 0.95
+    },
+    {
+     "text": "-",
+     "column": 4,
+     "confidence": 0.95
+    },
+    {
+     "text": "64",
+     "column": 5,
+     "confidence": 0.96
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "cells": [
+    {
+     "text": "BILASTERO M TABS",
+     "column": 0,
+     "confidence": 0.95
+    },
+    {
+     "text": "1X10",
+     "column": 1,
+     "confidence": 0.93
+    },
+    {
+     "text": "131",
+     "column": 2,
+     "confidence": 0.95
+    },
+    {
+     "text": "-",
+     "column": 3,
+     "confidence": 0.95
+    },
+    {
+     "text": "-",
+     "column": 4,
+     "confidence": 0.95
+    },
+    {
+     "text": "131",
+     "column": 5,
+     "confidence": 0.95
+    }
+   ]
+  },
+  {
+   "index": 8,
+   "cells": [
+    {
+     "text": "HETCLARI 125MG DRY SYRUP",
+     "column": 0,
+     "confidence": 0.95
+    },
+    {
+     "text": "30ML",
+     "column": 1,
+     "confidence": 0.93
+    },
+    {
+     "text": "40",
+     "column": 2,
+     "confidence": 0.95
+    },
+    {
+     "text": "-",
+     "column": 3,
+     "confidence": 0.95
+    },
+    {
+     "text": "-",
+     "column": 4,
+     "confidence": 0.95
+    },
+    {
+     "text": "40",
+     "column": 5,
+     "confidence": 0.94
+    }
+   ]
+  },
+  {
+   "index": 9,
+   "cells": [
+    {
+     "text": "HETCLARI 250MG TABLET",
+     "column": 0,
+     "confidence": 0.95
+    },
+    {
+     "text": "1X10",
+     "column": 1,
+     "confidence": 0.93
+    },
+    {
+     "text": "1",
+     "column": 2,
+     "confidence": 0.95
+    },
+    {
+     "text": "-",
+     "column": 3,
+     "confidence": 0.95
+    },
+    {
+     "text": "-",
+     "column": 4,
+     "confidence": 0.95
+    },
+    {
+     "text": "1",
+     "column": 5,
+     "confidence": 0.93
+    }
+   ]
+  },
+  {
+   "index": 10,
+   "cells": [
+    {
+     "text": "HETCLARI 500MG TAB",
+     "column": 0,
+     "confidence": 0.95
+    },
+    {
+     "text": "1X10",
+     "column": 1,
+     "confidence": 0.93
+    },
+    {
+     "text": "490",
+     "column": 2,
+     "confidence": 0.95
+    },
+    {
+     "text": "-",
+     "column": 3,
+     "confidence": 0.95
+    },
+    {
+     "text": "-",
+     "column": 4,
+     "confidence": 0.95
+    },
+    {
+     "text": "490",
+     "column": 5,
+     "confidence": 0.41
+    }
+   ]
+  },
+  {
+   "index": 11,
+   "cells": [
+    {
+     "text": "LYCEPT PLUS 1.5 GM INJ",
+     "column": 0,
+     "confidence": 0.95
+    },
+    {
+     "text": "1X10",
+     "column": 1,
+     "confidence": 0.93
+    },
+    {
+     "text": "188",
+     "column": 2,
+     "confidence": 0.95
+    },
+    {
+     "text": "-",
+     "column": 3,
+     "confidence": 0.95
+    },
+    {
+     "text": "-",
+     "column": 4,
+     "confidence": 0.95
+    },
+    {
+     "text": "188",
+     "column": 5,
+     "confidence": 0.36
+    }
+   ]
+  },
+  {
+   "index": 12,
+   "cells": [
+    {
+     "text": "NERVOK CLD",
+     "column": 0,
+     "confidence": 0.95
+    },
+    {
+     "text": "2ML",
+     "column": 1,
+     "confidence": 0.93
+    },
+    {
+     "text": "5",
+     "column": 2,
+     "confidence": 0.95
+    },
+    {
+     "text": "-",
+     "column": 3,
+     "confidence": 0.95
+    },
+    {
+     "text": "-",
+     "column": 4,
+     "confidence": 0.95
+    },
+    {
+     "text": "5",
+     "column": 5,
+     "confidence": 0.44
+    }
+   ]
+  },
+  {
+   "index": 13,
+   "cells": [
+    {
+     "text": "OFFICE CZ TAB",
+     "column": 0,
+     "confidence": 0.95
+    },
+    {
+     "text": "1X10",
+     "column": 1,
+     "confidence": 0.93
+    },
+    {
+     "text": "3",
+     "column": 2,
+     "confidence": 0.95
+    },
+    {
+     "text": "-",
+     "column": 3,
+     "confidence": 0.95
+    },
+    {
+     "text": "-",
+     "column": 4,
+     "confidence": 0.95
+    },
+    {
+     "text": "3",
+     "column": 5,
+     "confidence": 0.52
+    }
+   ]
+  },
+  {
+   "index": 14,
+   "cells": [
+    {
+     "text": "ONDATERO MD 4MG TABLET",
+     "column": 0,
+     "confidence": 0.95
+    },
+    {
+     "text": "1X10",
+     "column": 1,
+     "confidence": 0.93
+    },
+    {
+     "text": "52",
+     "column": 2,
+     "confidence": 0.95
+    },
+    {
+     "text": "-",
+     "column": 3,
+     "confidence": 0.95
+    },
+    {
+     "text": "-",
+     "column": 4,
+     "confidence": 0.95
+    },
+    {
+     "text": "52",
+     "column": 5,
+     "confidence": 0.91
+    }
+   ]
+  },
+  {
+   "index": 15,
+   "cells": [
+    {
+     "text": "ULFREE 1XGM TUBE MLISS",
+     "column": 0,
+     "confidence": 0.95
+    },
+    {
+     "text": "30ML",
+     "column": 1,
+     "confidence": 0.93
+    },
+    {
+     "text": "2",
+     "column": 2,
+     "confidence": 0.95
+    },
+    {
+     "text": "-",
+     "column": 3,
+     "confidence": 0.95
+    },
+    {
+     "text": "-",
+     "column": 4,
+     "confidence": 0.95
+    },
+    {
+     "text": "2",
+     "column": 5,
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "index": 16,
+   "cells": [
+    {
+     "text": "X-TIV CAPS",
+     "column": 0,
+     "confidence": 0.95
+    },
+    {
+     "text": "1X10",
+     "column": 1,
+     "confidence": 0.93
+    },
+    {
+     "text": "94",
+     "column": 2,
+     "confidence": 0.95
+    },
+    {
+     "text": "-",
+     "column": 3,
+     "confidence": 0.95
+    },
+    {
+     "text": "-",
+     "column": 4,
+     "confidence": 0.95
+    },
+    {
+     "text": "94",
+     "column": 5,
+     "confidence": 0.49
+    }
+   ]
+  },
+  {
+   "index": 17,
+   "cells": [
+    {
+     "text": "X-TIV SRYP",
+     "column": 0,
+     "confidence": 0.95
+    },
+    {
+     "text": "200ML",
+     "column": 1,
+     "confidence": 0.93
+    },
+    {
+     "text": "125",
+     "column": 2,
+     "confidence": 0.95
+    },
+    {
+     "text": "-",
+     "column": 3,
+     "confidence": 0.95
+    },
+    {
+     "text": "-",
+     "column": 4,
+     "confidence": 0.95
+    },
+    {
+     "text": "125",
+     "column": 5,
+     "confidence": 0.92
+    }
+   ]
+  },
+  {
+   "index": 18,
+   "cells": [
+    {
+     "text": "MENVOK CAP",
+     "column": 0,
+     "confidence": 0.95
+    },
+    {
+     "text": "1X10",
+     "column": 1,
+     "confidence": 0.93
+    },
+    {
+     "text": "108",
+     "column": 2,
+     "confidence": 0.95
+    },
+    {
+     "text": "-",
+     "column": 3,
+     "confidence": 0.95
+    },
+    {
+     "text": "-",
+     "column": 4,
+     "confidence": 0.95
+    },
+    {
+     "text": "108",
+     "column": 5,
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "index": 19,
+   "cells": [
+    {
+     "text": "TOTAL",
+     "column": 0,
+     "confidence": 0.97
+    },
+    {
+     "text": "",
+     "column": 1
+    },
+    {
+     "text": "60837",
+     "column": 2,
+     "confidence": 0.9
+    },
+    {
+     "text": "0",
+     "column": 3,
+     "confidence": 0.95
+    },
+    {
+     "text": "0",
+     "column": 4,
+     "confidence": 0.95
+    },
+    {
+     "text": "60837",
+     "column": 5,
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "index": 20,
+   "cells": [
+    "PURCHASE DETAIL :-"
+   ]
+  },
+  {
+   "index": 21,
+   "cells": [
+    "SUPPLIER NAME",
+    "INVOICE NO.",
+    "DATE",
+    "RECEIVE DATE",
+    "AMOUNT"
+   ]
+  },
+  {
+   "index": 22,
+   "cells": [
+    "HETERO HEALTHCARE LTD - LICKNO",
+    "5048751327",
+    "31-07-2026",
+    "05-08-2026",
+    "53745.00"
+   ]
+  }
+ ],
+ "tokens": [
+  {
+   "text": "64",
+   "confidence": 0.97
+  },
+  {
+   "text": "64",
+   "confidence": 0.97
+  },
+  {
+   "text": "131",
+   "confidence": 0.97
+  },
+  {
+   "text": "131",
+   "confidence": 0.97
+  },
+  {
+   "text": "40",
+   "confidence": 0.97
+  },
+  {
+   "text": "40",
+   "confidence": 0.97
+  },
+  {
+   "text": "1",
+   "confidence": 0.97
+  },
+  {
+   "text": "1",
+   "confidence": 0.97
+  },
+  {
+   "text": "490",
+   "confidence": 0.97
+  },
+  {
+   "text": "490",
+   "confidence": 0.97
+  },
+  {
+   "text": "188",
+   "confidence": 0.97
+  },
+  {
+   "text": "188",
+   "confidence": 0.97
+  },
+  {
+   "text": "5",
+   "confidence": 0.97
+  },
+  {
+   "text": "5",
+   "confidence": 0.97
+  },
+  {
+   "text": "3",
+   "confidence": 0.97
+  },
+  {
+   "text": "3",
+   "confidence": 0.97
+  },
+  {
+   "text": "52",
+   "confidence": 0.97
+  },
+  {
+   "text": "52",
+   "confidence": 0.97
+  },
+  {
+   "text": "2",
+   "confidence": 0.97
+  },
+  {
+   "text": "2",
+   "confidence": 0.97
+  },
+  {
+   "text": "94",
+   "confidence": 0.97
+  },
+  {
+   "text": "94",
+   "confidence": 0.97
+  },
+  {
+   "text": "125",
+   "confidence": 0.97
+  },
+  {
+   "text": "125",
+   "confidence": 0.97
+  },
+  {
+   "text": "108",
+   "confidence": 0.97
+  },
+  {
+   "text": "108",
+   "confidence": 0.97
+  },
+  {
+   "text": "60837",
+   "confidence": 0.97
+  },
+  {
+   "text": "0",
+   "confidence": 0.97
+  },
+  {
+   "text": "0",
+   "confidence": 0.97
+  },
+  {
+   "text": "60837",
+   "confidence": 0.97
+  },
+  {
+   "text": "5048751327",
+   "confidence": 0.97
+  },
+  {
+   "text": "53745.00",
+   "confidence": 0.97
+  }
+ ]
+}

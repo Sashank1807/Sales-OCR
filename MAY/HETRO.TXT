@@ -1,0 +1,63 @@
+
+            SUCHETA MEDICAL AGENCIES           
+From : 01/05/2026                  STOCK AND  SALES STATEMENT       
+To   : 31/05/2026
+Company Name : HETERO HEALTHCARE LTD                                          Page :   1
+------------------------------------------------------------------------------------------------
+Code   Product Name             Packing  Opening  Receipts    Total    Sales  Closing    Closing
+                                          Stock                                Stock      Value
+------------------------------------------------------------------------------------------------
+138008 36-D                     4'S           0          0        0        0        0       0.00
+138009 4PH 40MG                 15'S          0          0        0        0        0       0.00
+167099 BONFAST CAP              10'S          0          0        0        0        0       0.00
+146055 DISIN CAP                10s           0          0        0        0        0       0.00
+167008 ENUFF-10 SAC             1GM           0          0        0        0        0       0.00
+167009 ENUFF-100MG CAP          10S          10          0       10        0       10    1163.90
+154082 ETORO 90MG               10'S          0          0        0        0        0       0.00
+167096 ETORO-TH SOFT GELS       10'S        126          0      126        1      125   15075.00
+167090 FIXAR TAB                10            0          0        0        0        0       0.00
+177019 FLUVIR 75MG CAP          10'S         49          0       49        0       49   14914.98
+105022 FLUVIR 75ML DRY SYP      75ML         67         60      127       24      103   33016.65
+103160 FLUVIR JUNIOR SY         30ML         60          0       60        0       60    8100.00
+116009 HERAFT SUS               150ML       200          0      200       89      111    7097.58
+167102 HETRAN 20MG TAB          10           23          0       23        0       23    1892.67
+167014 HIFEN 100 DT TAB         10S           0          0        0        0        0       0.00
+167072 HIFEN 100MG PLUS TAB     10            0          0        0        0        0       0.00
+167015 HIFEN 200 DT TAB         10S           0          0        0        0        0       0.00
+167081 HIFEN 200MG PLUS TAB     10            0          0        0        0        0       0.00
+180005 HIFEN 50 PLUS DRY SY     30ML          0          0        0        0        0       0.00
+167061 HIFEN CV 100DT           10s           0          0        0        0        0       0.00
+167053 HIFEN CV 200TAB          10s           0          0        0        0        0       0.00
+167071 HIFEN CV DRY SY          30ML          0          0        0        0        0       0.00
+167041 IMIDIL DUSTING POWDER    100G          0          0        0        0        0       0.00
+170008 INZAN IV 400MG           1             0          0        0        0        0       0.00
+162041 K PLAST POUCH            1             0          0        0        0        0       0.00
+124050 KUTUB 30X TAB            4S            0          0        0        0        0       0.00
+167023 LANOL ER CAPLET          10S          30          0       30        0       30     414.30
+167040 LEVOCET D TAB            10s           0          0        0        0        0       0.00
+167080 LEVOCET M TAB            10           68          0       68        5       63    3907.89
+167026 LEVOCET TAB              10S          52         65      117       55       62    1815.98
+164055 LINOWIN 600 TAB          10S          82          0       82       30       52    9497.28
+167046 MPX CV 625 CAP           10'S          0          0        0        0        0       0.00
+167047 MPX CV DRY SY            30ml          0          0        0        0        0       0.00
+167045 MPX CV375                6s            0          0        0        0        0       0.00
+167100 PRABIN D 75/20           10S           0         24       24       12       12    1342.80
+101070 PRUTIS 100MG CAP         10'S          0          0        0        0        0       0.00
+152081 PRUTIS 150MG CAP         10'S          0          0        0        0        0       0.00
+124041 RABETERO L TABS          10s          24          0       24        0       24    2203.20
+130015 RIFGURAD 200 TAB         10            0          0        0        0        0       0.00
+167098 TEDITRATE 200MG TAB      10'S         10          0       10        0       10    6300.00
+167097 TOLYB TAB                10'S         25          0       25        0       25    4387.50
+162044 TRANS-D 100 PATCHESS     1             0          0        0        0        0       0.00
+203003 TRANS-D 200 PATCHES      3S            0          0        0        0        0       0.00
+108001 TROFEV 100MG TAB         10            0          0        0        0        0       0.00
+132027 VEIL 2NG CAP             10s           0          0        0        0        0       0.00
+167086 VETORY D TAB             10            0          0        0        0        0       0.00
+167001 VETORY MX TAB            10S           0          0        0        0        0       0.00
+113068 VETORY NANO GEL          30'GM         0          0        0        0        0       0.00
+167033 VETORY-P TAB             10S           0          0        0        0        0       0.00
+167034 VETORY-SP TAB            10S         160          0      160        0      160    5472.00
+------------------------------------------------------------------------------------------------
+ Opening Value Rs.     1,14,943.18   Sales Value   Rs.       22,163.90
+ Receipt Value Rs.       23,822.45   Closing Value Rs.     1,16,601.73
+------------------------------------------------------------------------------------------------

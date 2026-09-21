@@ -1,0 +1,163 @@
+
+C.D. ASSOCIATES
+
+STOCK REGISTER - SUMMARY
+PERIOD : 01-04-2026 TO 30-04-2026                                               
+--------------------------------------------------------------------------------
+ITEM NAME          UOM     O.B.    PUR.   S.RTN    SALE   P.RTN    C.B.  Expir
+                           QNTY    QNTY    QNTY    QNTY    QNTY    QNTY   Date
+--------------------------------------------------------------------------------
+Mfg.: HL01                          
+----------
+ALFMAN 10MG       10'S     143       400            359            184   07-28
+ALFMAN T TAB      10TAB     17         0              4             13   05-27
+BICATERO 50MG TAB 10'S       9         0              0              9   02-28
+DARBELIFE 40MG PF 1VIAL      0         6              0              6   12-28
+DARBELIFE 60MG IN 1's        3         0              0              3   06-28
+HETNIT TAB        14'S      96         0             52             44   05-27
+PEB MB6 200ML     200ML     12         0             12              0
+SILORAP 8MG TAB   10'S      93         0             59             34   06-27
+SILORAP D 8MG     10'S      84       300            248            136   09-27
+TAMCUF D          10'S       0       100             28             72   11-26
+TEDIWELL 200 TAB  6's       20         0              0             20   12-27
+TULA WELLBEING DA 400gm      0         5              0              5   06-27
+VEIL P TAB        10TAB     65         0              0             65   05-27
+VESIFA 5MG        10'S     231       300            431            100   10-27
+                         -------------------------------------------------------
+                           773      1111      0    1193      0     691
+                         -------------------------------------------------------
+Mfg.: HL02                          
+----------
+HETQ 200 TAB      10TAB      4        30             32              2
+HETQ 300 TAB      10TAB     35         0             35              0
+HETQ 400 TAB      10TAB     10        20             13             17   11-28
+IGUVIC 25         15TAB     20        20             12             28   11-27
+JAKURA TAB 5MG    10TAB     93        60             68             85   08-27
+JAKURA XR 11MG    10TAB      6        60             15             51   05-27
+METHORA 10MG      4's       60        50            110              0
+METHORA 15MG      4's       16        50             66              0
+METHORA 2.5 MG    4's       10        25              6      1      28   03-27
+METHORA 20MG      4's        6        25             13             18   11-27
+METHORA 5MG TAB   4's       17        25             15             27   02-27
+METHORA 7.5MG     4's        9         0              9              0
+MYCOTERO S 360    10TAB     24         0             24              0
+MYCOTERO TAB 500  10TAB      5         0              5              0
+PLOXIRA CAP       10's      26         0              0             26   06-27
+PREDNIWIK 40MG IN 1VIAL     14         0              0             14   07-27
+PREDNIWIK 80MG IN 1VIAL     26         0             24              2   07-27
+PRUTIS 100MG      10TAB      6         0              1              5   07-27
+PRUTIS 150MG      10TAB      8         0              0              8   08-27
+SZN 1000          10TAB     10         0              0             10   09-27
+SZN 500           10TAB      6        10              6             10   09-27
+TOFUS TAB         10TAB     45         0             12             33   03-27
+VOCAB 10          10TAB     18         0             16              2   12-26
+VOCAB 20          10TAB      0        11              9              2   12-27
+                         -------------------------------------------------------
+                           474       386      0     491      1     368
+                         -------------------------------------------------------
+Mfg.: HL03                          
+----------
+DAPADOT 10MG      10TAB     14         0              0             14   07-26
+DAPADOT M 500     10TAB      9         0              2              7   09-26
+DIAQUIL 50GNM TUB 50gm       7         0              5              2   02-27
+GABAQUIL NT       10TAB     10        20             18             12   12-27
+GLUCOWISE 20      10TAB     13        20             14             19   07-27
+GLUCOWISE M PLUS  10TAB     19        40             43             16   02-27
+GLUCOWISE M TAB   10TAB     52        60             54             58   07-27
+ISTAPHASE MG1     10TAB     51       100            110             41   07-27
+ISTAPHASE MG2     10TAB     72       150            222              0
+ROST 10           10TAB     19        20             19             20   09-28
+ROST F            10TAB      8        20              8             20   10-27
+SITOZA 100MG      10TAB     20         0             13              7   07-27
+SITOZA D 10MG     10TAB     10        20             10             20   05-27
+SITOZA M 500      10TAB      3         0              1              2   06-27
+VILDOV M 500      15TAB      3         0              0              3   11-26
+                         -------------------------------------------------------
+                           310       450      0     519      0     241
+                         -------------------------------------------------------
+Mfg.: HL04                          
+----------
+AD 100MG CAP      10TAB     24        10             34              0
+AD SAC 1GM        1sac     100         0             30             70   07-27
+BILASET DRY SYP   60ml      24         0              0             24   10-26
+BILASET M TAB     10TAB     54         0             39             15   08-27
+GENXVAST 10MG     10TAB      7         0              7              0
+GENXVAST 20MG     10TAB     17         0              5             12   09-27
+ITBOR 100         10TAB     18         0              0             18   07-26
+ITBOR 200         10TAB      4         0              4              0
+LAZINE M          10TAB     43         0             11             32   05-28
+LULIBOR CR 15GM   15gm       9         0              0              9   03-27
+LULIBOR CR 30GM   30gm      78         0             11             67   07-27
+LULIBOR LOT 30ML  30ml      27         0              0             27   02-27
+OPOX 200          10TAB      4         0              2              2   10-26
+OPOX CV100 DS     30ml      54         0             36             18   11-26
+OPOX CV200        10TAB     12         0              0             12   08-26
+OPOX CV50 DS      30ml      65         0              0             65   10-26
+PANTIN 40MG       15TAB    125         0             27             98   04-28
+PANTIN D TAB      10TAB     30         0              2             28   09-27
+PANTIN L          10TAB    169         0             76             93   09-27
+VERTIGEN TAB      10TAB     55         0             15             40   08-27
+ZEBOR 10% 15GM    15gm      10         0              0             10   02-27
+                         -------------------------------------------------------
+                           929        10      0     299      0     640
+                         -------------------------------------------------------
+Mfg.: HL05                          
+----------
+BILASTERO 2OMG    10TAB     30         0              0             30   01-27
+BILASTERO M       10TAB     30         0              0             30   05-27
+CFURO 250MG       10TAB     10         0              0             10   05-26
+CFURO 500MG       10TAB     10         0              0             10   05-26
+CFURO CV 625      6's       10         0              0             10   07-26
+ECO ALL GOLD      10TAB     12         0              0             12   04-27
+ECO ALL LIQ 5ML   5ml       50         0              0             50   03-27
+HETROBACT 5GM TUB 5gm       10         0              0             10   05-27
+KOFIRAX SYR 60ML  60ml      10         0              0             10   12-26
+KOFIREAX SYR 100M 100ml     10         0              0             10   04-27
+NERVOK CAP        10TAB     12         0              0             12   05-27
+OFFICE 100 TAB    10TAB      9         0              0              9   04-27
+OFFICE M SUSP     60ML      50         0              0             50   04-27
+OFIICE OZ TAB     10TAB     20         0              2             18   02-27
+PENVIR 250        6's       19         0              0             19   10-26
+PENVIR 500        3's        7         0              0              7   12-27
+RABEZ 20          10TAB      8         0              0              8   10-26
+RABEZ D           15TAB      7         0              2              5   12-26
+RABEZ L           10TAB     10         0              1              9   10-26
+RIFGUARD 400      15TAB     12         0              0             12   03-27
+RIFGUARD 550      15TAB     12         0              2             10   02-27
+S-GEL 10GM TUBE   10gm      10         0              0             10   09-26
+ULFREE 10GM TUBE  10gm      10         0              0             10   05-27
+XTIV CAP          10TAB     10         0              0             10   05-26
+                         -------------------------------------------------------
+                           378         0      0       7      0     371
+                         -------------------------------------------------------
+Mfg.: HL06                          
+----------
+BONFAST CAP       10TAB     36         0             24             12   04-27
+ETORO 90          10TAB     70         0             52             18   11-27
+ETORO TH TAB      10TAB     38         0              0             38   06-28
+TOLYB TAB         10TAB     61         0             55              6   03-26
+TRANS D 200       3's       13        40    12       24             41   11-26
+                         -------------------------------------------------------
+                           218        40     12     155      0     115
+                         -------------------------------------------------------
+Mfg.: HL07                          
+----------
+BILASET 40MG TAB  10TAB    287         0            287              0
+BORIT SB 130MG    10TAB     18         0              0             18   11-26
+BORIT SB 65       10TAB     24         0              0             24   06-26
+FLUVIR 75MG CAP   10TAB     58         0              0             58   08-29
+FLUVIR DRY SYP    75ml     111         0             24             87   09-27
+HETERONOX 1% CR 1 10gm      20         0              0             20   09-26
+MINOSTRONG 60ML   60ml      14         0              2             12   06-27
+MINOSTRONG TAB 1. 10TAB     21         0              0             21   11-27
+MINOSTRONG TAB 2. 10TAB     30         0             15             15   08-27
+MOISTE 50GM       50gm      14         0              4             10   04-27
+MOISTE CR 100GM   100gm     20         0     8       10             18   11-26
+MOISTE LOT 100ML  100ML     40         0              6             34   01-27
+NAFBOR CR 30GM    30gm      20         0              7             13   02-27
+                         -------------------------------------------------------
+                           677         0      8     355      0     330
+                         -------------------------------------------------------
+--------------------------------------------------------------------------------
+TOTAL                     3759      1997    20     3019      1    2756
+--------------------------------------------------------------------------------
